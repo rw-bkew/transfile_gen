@@ -1,0 +1,5 @@
+c:\users\28711\documents\visual studio 2015\Projects\translator_validation\translator_validation\bin\Debug\translator_validation.exe.config
+c:\users\28711\documents\visual studio 2015\Projects\translator_validation\translator_validation\bin\Debug\translator_validation.exe
+c:\users\28711\documents\visual studio 2015\Projects\translator_validation\translator_validation\bin\Debug\translator_validation.pdb
+c:\users\28711\documents\visual studio 2015\Projects\translator_validation\translator_validation\obj\Debug\translator_validation.exe
+c:\users\28711\documents\visual studio 2015\Projects\translator_validation\translator_validation\obj\Debug\translator_validation.pdb

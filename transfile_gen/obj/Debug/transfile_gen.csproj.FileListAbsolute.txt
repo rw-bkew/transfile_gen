@@ -1,0 +1,14 @@
+C:\Users\28711\Documents\Visual Studio 2015\Projects\translator_validation\translator_validation\bin\Debug\transfile_gen.exe.config
+C:\Users\28711\Documents\Visual Studio 2015\Projects\translator_validation\translator_validation\bin\Debug\transfile_gen.exe
+C:\Users\28711\Documents\Visual Studio 2015\Projects\translator_validation\translator_validation\bin\Debug\transfile_gen.pdb
+C:\Users\28711\Documents\Visual Studio 2015\Projects\translator_validation\translator_validation\obj\Debug\transfile_gen.exe
+C:\Users\28711\Documents\Visual Studio 2015\Projects\translator_validation\translator_validation\obj\Debug\transfile_gen.pdb
+C:\Users\28711\Documents\Visual Studio 2015\Projects\transfile_gen\transfile_gen\bin\Debug\transfile_gen.exe.config
+C:\Users\28711\Documents\Visual Studio 2015\Projects\transfile_gen\transfile_gen\obj\Debug\transfile_gen.exe
+C:\Users\28711\Documents\Visual Studio 2015\Projects\transfile_gen\transfile_gen\obj\Debug\transfile_gen.pdb
+C:\Users\28711\Documents\Visual Studio 2015\Projects\transfile_gen\transfile_gen\bin\Debug\transfile_gen.exe
+C:\Users\28711\Documents\Visual Studio 2015\Projects\transfile_gen\transfile_gen\bin\Debug\transfile_gen.pdb
+C:\Users\28711\Documents\Visual Studio 2015\Projects\transfile_gen\transfile_gen\obj\Debug\transfile_gen.csprojResolveAssemblyReference.cache
+C:\Users\28711\Documents\GitHub\transfile_gen\transfile_gen\bin\Debug\transfile_gen.exe.config
+C:\Users\28711\Documents\GitHub\transfile_gen\transfile_gen\obj\Debug\transfile_gen.exe
+C:\Users\28711\Documents\GitHub\transfile_gen\transfile_gen\obj\Debug\transfile_gen.pdb
