@@ -15,7 +15,7 @@ namespace transfile_gen
         static void Main(string[] args)
         {
 
-            var transPath = "C:/Users/28711/Documents/GitHub/RenWeb.Application.LMS/src/content/locales/";
+            var transPath = "C:/GitHub/RenWeb.Application.LMS/src/content/locales/";
             var primaryTransFname = transPath + "locale-en_US.json";
 
 
@@ -84,6 +84,7 @@ namespace transfile_gen
         {
             List<string> fileContents = new List<string>();
 
+            // writing to csv file for excel
             fileContents.Add("sep=|");
             fileContents.Add("Key (Do not change!)|English|Translation");
             foreach (var transrec in baseDictionary)
@@ -95,8 +96,10 @@ namespace transfile_gen
                     result = null;
                 }
                 translist.Add(new TransXref(transrec.Key, transrec.Value, result));
-                string s = String.Format("\"{0}\"|\"{1}\"|\"{2}\"", translist.Last().baseKey, translist.Last().baseText,
-                    translist.Last().transText);
+                // excel still needs the double quotes
+                // in order to have double quotes in the file, they need to be doubled
+                string s = String.Format("\"{0}\"|\"{1}\"|\"{2}\"", translist.Last().baseKey, translist.Last().baseText.Replace("\"", "\"\""),
+                    translist.Last().transText.Replace("\"", "\"\""));
                 fileContents.Add(s);
             }
 
