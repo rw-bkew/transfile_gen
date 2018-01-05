@@ -90,6 +90,7 @@ namespace transfile_gen
             foreach (var transrec in baseDictionary)
             {
                 string result;
+                string s;
 
                 if (transDictionary == null || !transDictionary.TryGetValue(transrec.Key, out result))
                 {
@@ -98,8 +99,14 @@ namespace transfile_gen
                 translist.Add(new TransXref(transrec.Key, transrec.Value, result));
                 // excel still needs the double quotes
                 // in order to have double quotes in the file, they need to be doubled
-                string s = String.Format("\"{0}\"|\"{1}\"|\"{2}\"", translist.Last().baseKey, translist.Last().baseText.Replace("\"", "\"\""),
-                    translist.Last().transText.Replace("\"", "\"\""));
+                if (String.IsNullOrEmpty(translist.Last().transText)) {
+                    s = String.Format("\"{0}\"|\"{1}\"|\"\"", translist.Last().baseKey, translist.Last().baseText.Replace("\"", "\"\""));
+                }
+                else {
+                    s = String.Format("\"{0}\"|\"{1}\"|\"{2}\"", translist.Last().baseKey, translist.Last().baseText.Replace("\"", "\"\""),
+                        translist.Last().transText.Replace("\"", "\"\""));
+               
+                }
                 fileContents.Add(s);
             }
 
